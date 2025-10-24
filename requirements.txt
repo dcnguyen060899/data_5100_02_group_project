@@ -1,1 +1,11 @@
 
+seaborn
+pandas
+matplotlib
+numpy
+scipy
+statsmodels
+openpyxl
+scikit-learn
+plotly
+tqdm
