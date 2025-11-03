@@ -42,7 +42,8 @@ After applying our cruise phase definition and data quality filters, our final a
 ### Data Source
 - **Primary Source:** NASA's DASHlink Database - Aircraft Tail 687 Flight Recordings [[3]](#ref-3)
 - **Publication Date:** 2012
-- **Original Dataset:** 651 complete commercial flights
+- **Original Dataset:** 651 complete commercial flights 
+   - Tail 687 Set 1 [Tail_687_1.zip](https://c3.ndc.nasa.gov/dashlink/static/media/dataset/Tail_687_1.zip)
 
 ### Data Description
 The dataset consists of time-series flight recorder data from a commercial wide-body aircraft (4 engines). Each flight contains measurements of 186 different parameters sampled at varying frequencies throughout the flight envelope.
