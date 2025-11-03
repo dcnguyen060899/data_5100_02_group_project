@@ -19,7 +19,6 @@ This project analyzes NASA DASHlink flight recorder data from 312 commercial fli
 Aircraft Tail 687 consumes thousands of pounds of jet fuel per flight, translating to tens of thousands of dollars in operating costs and substantial carbon dioxide emissions. The aviation industry operates on razor-thin profit margins where even marginal efficiency improvements compound into millions of dollars in annual savings across a fleet. This project leverages NASA's DASHlink database containing detailed flight recorder data from six hundred fifty-two commercial flights to identify operational factors that airlines can control to reduce fuel consumption during cruise flight.
 
 
-
 ## Research Question
 
 **How do altitude and airspeed combinations affect fuel efficiency during cruise flight for Aircraft Tail 687, and what represents the optimal cruise profile for different operational conditions?**
@@ -30,7 +29,7 @@ This question focuses our analysis on actionable operational decisions that pilo
 
 Commercial aviation fuel costs represent approximately thirty percent of total operating expenses for major carriers. A five percent reduction in fuel consumption during cruise flight would generate substantial financial benefits while simultaneously reducing environmental impact. For a typical wide-body aircraft flying transcontinental routes, this translates to approximately fifteen hundred dollars saved per flight and roughly one ton less carbon dioxide emitted. Scaled across a fleet operating thousands of flights annually, such improvements justify significant investment in data-driven optimization systems.
 
-Beyond direct cost savings, fuel efficiency improvements enhance airline competitiveness in an increasingly environmentally conscious market. Regulatory pressure to reduce aviation emissions continues intensifying globally, making proactive efficiency gains both economically prudent and strategically necessary for long-term operational sustainability.
+Beyond direct cost savings, fuel efficiency improvements enhance airline competitiveness in an increasingly environmentally conscious market. Regulatory pressure to reduce aviation emissions continues intensifying globally, making proactive efficiency gains both economically prudent and strategically necessary for long-term operational sustainability. That is why Boeing rolls out the Boeing ecoDemonstrator program to systematically test and validate emerging fuel-saving technologies in real operational conditions before industry-wide adoption. This approach accelerates the transition from experimental concepts to proven solutions that airlines can implement to meet both economic objectives and mounting regulatory requirements for emissions reduction ([Boeing Commercial Airplanes, 2024](#ref-boeing-2024))
 
 ## Data Source and Analytical Dataset
 
@@ -42,7 +41,7 @@ After applying our cruise phase definition and data quality filters, our final a
 
 ### Data Source
 - **Primary Source:** NASA's DASHlink Database - Aircraft Tail 687 Flight Recordings
-- **Database Link:** [NASA DASHlink Database](https://c3.nasa.gov/dashlink/projects/85/)
+- **Database Link:** [[NASA DASHlink Database](https://c3.ndc.nasa.gov/dashlink/resources/664/)](#ref-nasa-dashlink) 
 - **Publication Date:** 2012
 - **Original Dataset:** 651 complete commercial flights
 
@@ -125,3 +124,10 @@ ls -lh data/cleaned_cruise_dataset.csv
 ```
 
 The file should be roughly around 551~578 MB. If it's only a few KB, Git LFS is not configured correctly.
+
+
+## References
+
+- Boeing. (2024). ecoDemonstrator Program. Boeing Sustainability. https://www.boeing.com/sustainability/ecodemonstrator
+- <a id="ref-boeing-2024"></a>Boeing Commercial Airplanes. (2024). The Boeing ecoDemonstrator Program [Backgrounder]. Boeing. https://www.boeing.com/content/dam/boeing/boeingdotcom/principles/environment/pdf/BKG-ecoDemonstrator_2024_Oct.pdf
+- <a id="ref-nasa-dashlink"></a> Matthews, B. (2012). Flight Data for Tail 687. NASA DASHlink (C3). https://c3.ndc.nasa.gov/dashlink/resources/664/
