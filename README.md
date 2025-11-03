@@ -129,4 +129,4 @@ The file should be roughly around 551~578 MB. If it's only a few KB, Git LFS is 
 
 - <a id="ref-1"></a> [1] Boeing. (2024). ecoDemonstrator Program. Boeing Sustainability. https://www.boeing.com/sustainability/ecodemonstrator
 - <a id="ref-2"></a> [2] Boeing Commercial Airplanes. (2024). The Boeing ecoDemonstrator Program [Backgrounder]. Boeing. https://www.boeing.com/content/dam/boeing/boeingdotcom/principles/environment/pdf/BKG-ecoDemonstrator_2024_Oct.pdf
-<a id="ref-3"></a> [3] Matthews, B. (2012). Flight Data for Tail 687. NASA DASHlink (C3). https://c3.ndc.nasa.gov/dashlink/resources/664/
+- <a id="ref-3"></a> [3] Matthews, B. (2012). Flight Data for Tail 687. NASA DASHlink (C3). https://c3.ndc.nasa.gov/dashlink/resources/664/
