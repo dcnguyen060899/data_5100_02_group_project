@@ -40,7 +40,7 @@ Our preliminary screening of the complete database revealed that three hundred t
 After applying our cruise phase definition and data quality filters, our final analytical dataset comprises one million eight hundred eighty-two thousand five hundred seventy-three individual measurements. At four samples per second, this represents approximately one hundred thirty hours of cruise flight time distributed across diverse operational conditions. This substantial dataset provides robust statistical power to detect operationally meaningful relationships between flight parameters and fuel consumption while capturing sufficient variation to support reliable inference about optimal operating strategies.
 
 ### Data Source
-- **Primary Source:** NASA's DASHlink Database - Aircraft Tail 687 Flight Recordings [[3]](#ref-nasa-dashlink-2012)
+- **Primary Source:** NASA's DASHlink Database - Aircraft Tail 687 Flight Recordings [[3]](#ref-3)
 - **Publication Date:** 2012
 - **Original Dataset:** 651 complete commercial flights
 
