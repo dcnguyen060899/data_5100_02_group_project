@@ -60,3 +60,68 @@ The dataset consists of time-series flight recorder data from a commercial wide-
 - `data/cruise_flight_summary.csv` - Flight metadata (flight names and cruise indicators)
 - `data/flight_parameters_dictionary.csv` - Parameter definitions and descriptions
 - `data/cleaned_cruise_dataset.csv` - Cleaned analytical dataset (1.88M rows, 32 variables)
+
+## Requirements
+
+This project requires the following Python packages:
+
+- `pandas` - Data manipulation and analysis
+- `numpy` - Numerical computing
+- `matplotlib` - Data visualization
+- `seaborn` - Statistical data visualization
+- `statsmodels` - Statistical modeling and testing
+- `scipy` - Scientific computing and statistics
+
+**Environment:**
+- Python
+- Jupyter Notebook/Lab
+
+### Installation
+
+To install all required packages, run:
+
+All dependencies are listed in `requirements.txt`. Run `pip install -r "requirements.txt"` to install libraries.
+
+## Reproducibility Note
+
+**Important:** This repository uses **Git Large File Storage (Git LFS)** to manage the large cleaned dataset file (`data/cleaned_cruise_dataset.csv`, 578 MB).
+
+### Setting Up Git LFS
+
+To clone this repository and access the full dataset, follow these steps:
+
+1. **Install Git LFS** (if not already installed):
+   ```bash
+   # macOS
+   brew install git-lfs   # First install Homebrew if you don't have it, then use this command to install Git LFS
+
+   # Ubuntu/Debian
+   sudo apt-get install git-lfs
+
+   # Windows
+   # Download from https://git-lfs.github.com/
+   ```
+
+2. **Initialize Git LFS**:
+   ```bash
+   git lfs install
+   ```
+
+3. **Clone the repository**:
+   ```bash
+   git clone https://github.com/dcnguyen060899/data_5100_02_group_project
+   ```
+
+Git LFS will automatically download the large dataset file during cloning because of the `.gitattributes` file configuration. After cloning completes, the full 578 MB dataset will be available in the `data/` directory. You can then run the analysis notebook (`code/aviation_optimization_group_project.ipynb`) to reproduce all results.
+
+Note that, without LFS, you can still clone the repository but you will not get the actual large data files.
+
+### Verifying Dataset Download
+
+To verify the dataset was downloaded correctly, check the file size:
+
+```bash
+ls -lh data/cleaned_cruise_dataset.csv
+```
+
+The file should be approximately 578 MB. If it's only a few KB, Git LFS is not configured correctly.
