@@ -124,4 +124,4 @@ To verify the dataset was downloaded correctly, check the file size:
 ls -lh data/cleaned_cruise_dataset.csv
 ```
 
-The file should be approximately 578 MB. If it's only a few KB, Git LFS is not configured correctly.
+The file should be roughly around 551~578 MB. If it's only a few KB, Git LFS is not configured correctly.
