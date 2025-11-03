@@ -70,6 +70,7 @@ This project requires the following Python packages:
 - `seaborn` - Statistical data visualization
 - `statsmodels` - Statistical modeling and testing
 - `scipy` - Scientific computing and statistics
+- `tqdm` - Progress bars for iterating easily (just for aesthetic and readability)
 
 **Environment:**
 - Python
