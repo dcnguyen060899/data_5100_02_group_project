@@ -29,7 +29,7 @@ This question focuses our analysis on actionable operational decisions that pilo
 
 Commercial aviation fuel costs represent approximately thirty percent of total operating expenses for major carriers. A five percent reduction in fuel consumption during cruise flight would generate substantial financial benefits while simultaneously reducing environmental impact. For a typical wide-body aircraft flying transcontinental routes, this translates to approximately fifteen hundred dollars saved per flight and roughly one ton less carbon dioxide emitted. Scaled across a fleet operating thousands of flights annually, such improvements justify significant investment in data-driven optimization systems.
 
-Beyond direct cost savings, fuel efficiency improvements enhance airline competitiveness in an increasingly environmentally conscious market. Regulatory pressure to reduce aviation emissions continues intensifying globally, making proactive efficiency gains both economically prudent and strategically necessary for long-term operational sustainability. That is why Boeing rolls out the Boeing ecoDemonstrator program to systematically test and validate emerging fuel-saving technologies in real operational conditions before industry-wide adoption. This approach accelerates the transition from experimental concepts to proven solutions that airlines can implement to meet both economic objectives and mounting regulatory requirements for emissions reduction (Boeing Commercial Airplanes, 2024 [[1]](#ref-1) [[2]](#ref-2))
+Beyond direct cost savings, fuel efficiency improvements enhance airline competitiveness in an increasingly environmentally conscious market. Regulatory pressure to reduce aviation emissions continues intensifying globally, making proactive efficiency gains both economically prudent and strategically necessary for long-term operational sustainability. That is why Boeing rolls out the Boeing ecoDemonstrator program to systematically test and validate emerging fuel-saving technologies in real operational conditions before industry-wide adoption. This approach accelerates the transition from experimental concepts to proven solutions that airlines can implement to meet both economic objectives and mounting regulatory requirements for emissions reduction (Boeing Commercial Airplanes, 2024) [[1]](#ref-1) [[2]](#ref-2)
 
 ## Data Source and Analytical Dataset
 
@@ -40,8 +40,7 @@ Our preliminary screening of the complete database revealed that three hundred t
 After applying our cruise phase definition and data quality filters, our final analytical dataset comprises one million eight hundred eighty-two thousand five hundred seventy-three individual measurements. At four samples per second, this represents approximately one hundred thirty hours of cruise flight time distributed across diverse operational conditions. This substantial dataset provides robust statistical power to detect operationally meaningful relationships between flight parameters and fuel consumption while capturing sufficient variation to support reliable inference about optimal operating strategies.
 
 ### Data Source
-- **Primary Source:** NASA's DASHlink Database - Aircraft Tail 687 Flight Recordings
-- **Database Link:** [NASA DASHlink Database](https://c3.ndc.nasa.gov/dashlink/resources/664/) [[3]](#ref-nasa-dashlink-2012)
+- **Primary Source:** NASA's DASHlink Database - Aircraft Tail 687 Flight Recordings [3]](#ref-nasa-dashlink-2012)
 - **Publication Date:** 2012
 - **Original Dataset:** 651 complete commercial flights
 
@@ -130,4 +129,4 @@ The file should be roughly around 551~578 MB. If it's only a few KB, Git LFS is 
 
 - <a id="ref-1"></a> [1] Boeing. (2024). ecoDemonstrator Program. Boeing Sustainability. https://www.boeing.com/sustainability/ecodemonstrator
 - <a id="ref-2"></a> [2] Boeing Commercial Airplanes. (2024). The Boeing ecoDemonstrator Program [Backgrounder]. Boeing. https://www.boeing.com/content/dam/boeing/boeingdotcom/principles/environment/pdf/BKG-ecoDemonstrator_2024_Oct.pdf
-- <a id="ref-nasa-dashlink-2012"></a> Matthews, B. (2012). Flight Data for Tail 687. NASA DASHlink (C3). https://c3.ndc.nasa.gov/dashlink/resources/664/
+<a id="ref-3"></a> [3] Matthews, B. (2012). Flight Data for Tail 687. NASA DASHlink (C3). https://c3.ndc.nasa.gov/dashlink/resources/664/
