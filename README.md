@@ -1,4 +1,4 @@
-# Optimizing Cruise Efficiency for Aircraft Tail 687: Data-Driven Analysis of Altitude and Airspeed Combinations for Fuel Consumption Reduction
+# How to Save Thousands of Dollars Per Flight: Aircraft Fuel Efficiency Optimization - An analysis of Fuel Burn during Cruise Phase for Aircraft Tail 687
 
 ## DATA 5100 - Fall Quarter 2025 - Group Project
 
