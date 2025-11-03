@@ -29,7 +29,7 @@ This question focuses our analysis on actionable operational decisions that pilo
 
 Commercial aviation fuel costs represent approximately thirty percent of total operating expenses for major carriers. A five percent reduction in fuel consumption during cruise flight would generate substantial financial benefits while simultaneously reducing environmental impact. For a typical wide-body aircraft flying transcontinental routes, this translates to approximately fifteen hundred dollars saved per flight and roughly one ton less carbon dioxide emitted. Scaled across a fleet operating thousands of flights annually, such improvements justify significant investment in data-driven optimization systems.
 
-Beyond direct cost savings, fuel efficiency improvements enhance airline competitiveness in an increasingly environmentally conscious market. Regulatory pressure to reduce aviation emissions continues intensifying globally, making proactive efficiency gains both economically prudent and strategically necessary for long-term operational sustainability. That is why Boeing rolls out the Boeing ecoDemonstrator program to systematically test and validate emerging fuel-saving technologies in real operational conditions before industry-wide adoption. This approach accelerates the transition from experimental concepts to proven solutions that airlines can implement to meet both economic objectives and mounting regulatory requirements for emissions reduction (Boeing Commercial Airplanes, 2024 [1](#ref-1)[2](#ref-2))
+Beyond direct cost savings, fuel efficiency improvements enhance airline competitiveness in an increasingly environmentally conscious market. Regulatory pressure to reduce aviation emissions continues intensifying globally, making proactive efficiency gains both economically prudent and strategically necessary for long-term operational sustainability. That is why Boeing rolls out the Boeing ecoDemonstrator program to systematically test and validate emerging fuel-saving technologies in real operational conditions before industry-wide adoption. This approach accelerates the transition from experimental concepts to proven solutions that airlines can implement to meet both economic objectives and mounting regulatory requirements for emissions reduction (Boeing Commercial Airplanes, 2024 [[1]](#ref-1) [[2]](#ref-2))
 
 ## Data Source and Analytical Dataset
 
@@ -41,7 +41,7 @@ After applying our cruise phase definition and data quality filters, our final a
 
 ### Data Source
 - **Primary Source:** NASA's DASHlink Database - Aircraft Tail 687 Flight Recordings
-- **Database Link:** [NASA DASHlink Database](https://c3.ndc.nasa.gov/dashlink/resources/664/)[3](#ref-nasa-dashlink-2012)
+- **Database Link:** [NASA DASHlink Database](https://c3.ndc.nasa.gov/dashlink/resources/664/) [[3]](#ref-nasa-dashlink-2012)
 - **Publication Date:** 2012
 - **Original Dataset:** 651 complete commercial flights
 
