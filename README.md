@@ -77,9 +77,8 @@ This project requires the following Python packages:
 
 ### Installation
 
-To install all required packages, run:
-
-All dependencies are listed in `requirements.txt`. Run `pip install -r "requirements.txt"` to install libraries.
+To install all required packages as all dependencies are listed in `requirements.txt`, we can run:
+- `pip install -r "requirements.txt"` to install libraries.
 
 ## Reproducibility Note
 
